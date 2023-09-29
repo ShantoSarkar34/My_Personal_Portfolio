@@ -8,20 +8,132 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.timeline__bar{
+ 
+  right: -6px;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #4e15d3;
+  z-index: 2;
+  background-color: #fff;
+
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+.timeline__bar::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #4e15d3;
+  z-index: 2;
+}
+
+
+.style2{
+  border: 1px solid #0F90E6;
+}
+.style2::before{
+  background-color: #0F90E6;
+}
+
+
+.style3{
+  border: 1px solid #00cd4d;
+}
+.style3::before{
+  background-color: #00cd4d;
+}
+
+.serviceStyle-1{
+  position: relative;
+ background-color: #faf7f700;
+ padding: 30px;
+ transition: all 0.3s ease-in-out;
+ z-index: 2;
+}
+
+
+.serviceStyle-1:hover::after {
+ width: 100%;
+ left: auto;
+ right: 0;
+ z-index: -1;
+}
+
+.serviceStyle-1::after {
+ content: "";
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 0;
+ height: 100%;
+ background: #ffffff;
+ transition: all 0.3s ease-in-out; 
+}
+
+
+.backgroundcolor{
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+}
+
+.backgroundcolor2{
+  background: linear-gradient(to right, rgba(209, 34, 227, 0.95), rgba(153, 38, 240, 0.95));
+}
+
+
+.imgstyle{
+  -webkit-mask-image: url(./img/about-img_1-mask.svg);
+    mask-image: url(./img/about-img_1-mask.svg);
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center center;
+    mask-position: center center;
+    padding: 30px 0 0;
+    rotate: 10deg;
+}
+
+.contact_bg_img{
+  background-image: url(./img/contact-img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.service_bg_img{
+  /* background-image:linear-gradient(to bottom, rgba(152, 38, 240, 0.308), rgba(208, 34, 227, 0.384)), 
+  url(./img/service_bg.jpg); */
+  background-image:linear-gradient(to bottom, rgba(12, 29, 124, 0.52), #0c1d7c85), 
+  url(./img/service_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hire_bg_img{
+  background-image:linear-gradient(to bottom, rgba(22, 22, 22, 0.52), rgba(22, 22, 22, 0.52)), 
+  url(./img/hair_me_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.animation{
+  transition: all 2s cubic-bezier(0.165, 0.840, 0.440, 1.000);
+}
+
+.transition-transform1 {
+  transition-property: transform;
+  transition-timing-function: all 2s cubic-bezier(0.165, 0.840, 0.440, 1.000);
+  transition-duration: 150ms;
 }
