@@ -9,9 +9,12 @@ import {
 import Image from "next/image";
 import * as Scroll from "react-scroll";
 import { Link } from "react-scroll";
-import logo from "../img/logo.png";
-import logo2 from "../img/logo_img.png"
+import logo from "../img/LOGO-IMG.png";
+import logo2 from "../img/byte_buster_logo.png"
 import {FaPhoneAlt} from "react-icons/fa"
+import {GiHamburgerMenu,GiCrossedSwords} from "react-icons/gi"
+
+
 
 export default function Header() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -24,11 +27,11 @@ export default function Header() {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-3 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="mb-4 mt-2 flex flex-col lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
         variant="small"
-        className="p-1 font-medium transition-all duration-200  "
+        className="py-3 font-medium transition-all duration-200 border-b-[1px] lg:border-none "
       >
         <Link
           activeClass="active"
@@ -45,7 +48,7 @@ export default function Header() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1   font-medium "
+        className="py-3 font-medium border-b-[1px] lg:border-none"
       >
         <Link
          activeClass="active"
@@ -62,7 +65,7 @@ export default function Header() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1   font-medium "
+        className="py-3 font-medium border-b-[1px] lg:border-none"
       >
         <Link
          activeClass="active"
@@ -79,7 +82,7 @@ export default function Header() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1   font-medium "
+        className="py-3 font-medium border-b-[1px] lg:border-none"
       >
         <Link
          activeClass="active"
@@ -96,7 +99,7 @@ export default function Header() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1   font-medium "
+        className="py-3 font-medium border-b-[1px] lg:border-none"
       >
         <Link
          activeClass="active"
@@ -113,7 +116,7 @@ export default function Header() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1  font-medium "
+        className="py-3 font-medium border-b-[1px] lg:border-none"
       >
         <Link
          activeClass="active"
@@ -132,20 +135,20 @@ export default function Header() {
   return (
     <Navbar
       id="header"
-      className="fixed top-0 backgroundcolor shadow-lg z-10 h-max max-w-full rounded-none py-1 container px-4 lg:px-[2.5rem]  xl:px-[4rem]"
+      className="fixed top-0 backgroundcolor shadow-lg z-10 h-max max-w-full rounded-none py-1 container px-4 lg:px-[2.5rem]  xl:px-[5.7rem]"
     >
       <div className="flex items-center container mx-auto justify-between text-blue-gray-900">
         <Typography
           as="a"
           href="#"
-          className="mr-4 cursor-pointer py-1.5 font-medium  transition-all duration-200 flex items-center gap-1"
+          className="mr-4 cursor-pointer font-medium  transition-all duration-200 flex items-center gap-1"
         >
           <Image
-           src={logo2} 
-           height={100} 
-           width={125} 
+           src={logo} 
+           height={80} 
+           width={60} 
            alt="logo"
-           className="w-[5.2rem] md:w-28 lg:w-[8rem]"
+           className="lg:w-20 rotate-6"
            />
            <div className="text-center">
             <h3 className="font-bold text-[1.2rem] md:text-[1.9rem]">Byte <span className="text-[#500E5B]">Busters</span></h3>
@@ -182,34 +185,10 @@ export default function Header() {
             onClick={() => setOpenNav(!openNav)}
           >
             {openNav ? (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                className="h-6 w-6"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
+              <GiCrossedSwords className="text-white text-2xl"/>
+              
             ) : (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={2}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
+              <GiHamburgerMenu className="text-white text-2xl"/>
             )}
           </IconButton>
         </div>

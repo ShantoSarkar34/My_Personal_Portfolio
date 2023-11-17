@@ -11,6 +11,7 @@ import {
   BsInstagram,
 } from "react-icons/bs";
 
+
 function Footer() {
   return (
     <section id="footer">
@@ -30,18 +31,18 @@ function Footer() {
               <TbMailOpened className="text-[#7321B1] text-[2.5rem] lg:text-[4.5rem]" />
               <div>
                 <h3 className="text-white hover:text-[#7321B1] text-[1.1rem] font-semibold lg:text-[1.3rem]">
-                  shanto9070sarkar@gmail.com
+                  bytebuster9070@gmail.com
                 </h3>
                 <p className="text-[#464B4F] font-semibold lg:text-[1.1rem]">Online support</p>
               </div>
             </div>
-            <div className=" flex  gap-3 items-center">
+            <div className=" flex gap-3 items-center">
               <RiUserLocationLine className="text-[#7321B1] text-[2.5rem] lg:text-[4.5rem]" />
               <div>
                 <h3 className="text-white hover:text-[#7321B1] text-[1.1rem] font-semibold lg:text-[1.3rem]">
-                  Bogura,Rajshahi,BD
+                  Rajshahi,Bangladesh
                 </h3>
-                <p className="text-[#464B4F] font-semibold lg:text-[1.1rem]">Dhunat,Thanapara</p>
+                <p className="text-[#464B4F] font-semibold lg:text-[1.1rem]">Dhunat,Bogura</p>
               </div>
             </div>
           </div>
@@ -63,13 +64,13 @@ function Footer() {
               <Link href={"#"}>
               <BsTwitter className="hover:text-[#9925BA] md:text-[1.5rem]" />
               </Link>
-              <Link href={"#"}>
+              <Link href={"https://github.com/ShantoSarkar34"}>
               <BsGithub className="hover:text-[#9925BA] md:text-[1.5rem]" />
               </Link>
-              <Link href={"#"}>
+              <Link href={"https://www.linkedin.com/in/shanto9070/"}>
               <BsLinkedin className="hover:text-[#9925BA] md:text-[1.5rem]" />
               </Link>
-              <Link href={"#"}>
+              <Link href={"https://www.instagram.com/shanto9070.me/"}>
               <BsInstagram className="hover:text-[#9925BA] md:text-[1.5rem]" />
               </Link>
             </div>
@@ -197,7 +198,7 @@ function Footer() {
                     href={"#"}
                     className="hover:text-[#9925BA] hover:underline"
                   >
-                    shantomr33@gmail.com
+                    bytebuster9070@gmail.com
                   </Link>
                 </li>
                 <li>

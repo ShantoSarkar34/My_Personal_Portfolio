@@ -169,7 +169,7 @@ function Service() {
               className=" flex flex-row-reverse gap-2 backgroundcolor2 
                  hover:text-white transition-all duration-300
                  font-semibold  py-[.9rem] px-[2rem] shadow-sm  space-x-2 items-center
-                  text-primary mt-10 rounded-full"
+                  text-primary mt-10 rounded-full cursor-pointer"
               >
                 <FaArrowRight className="h-5 w-5" />
                 <p>Social Media Link</p>
