@@ -137,7 +137,7 @@ function About() {
                     <span className="font-semibold text-[#500E5B] hover:text-[#9925BA] italic">
                       Shanto Sarkar
                     </span>
-                    . I am a Web Developer, and I'm very passionate and
+                    . I am a Web Developer, and I&#39;m very passionate and
                     dedicated to my work. With 05 years experience as a
                     professional Web developer, I have acquired the skills and
                     knowledge necessary to make your project a success.
@@ -162,7 +162,8 @@ function About() {
                       <li className="text-[1.1rem]">+880 1783-805534</li>
                     </ul>
                   </div>
-                  <div className="-mt-[1px] border-2 w-full border-[#CE2DE6] py-3 px-4 rounded-b-[10px] md:rounded-r-[10px] md:-ml-[1.5px] md:p-8 md:rounded-l-none md:mt-0 border-t-0 md:border-t-2
+                  <div className="-mt-[1px] border-2 w-full border-[#CE2DE6] py-3 px-4 
+                  rounded-b-[10px] md:rounded-r-[10px] md:-ml-[1.5px] md:p-8 md:rounded-l-none md:mt-0 border-t-0 md:border-t-2
                   lg:p-4 2xl:pr-20">
                     <ul className="space-y-2">
                       <li className="text-[1.2rem] font-semibold text-[#500E5B]">

@@ -16,11 +16,12 @@ function Hero() {
 
             <div className="space-y-5 text-center md:text-start space">
               <h1 className="text-[3.5rem] leading-tight font font-extrabold text-white lg:text-[4rem]">
-                Hey!, I'm <span>Shanto</span>{" "}
+                Hey!, I&#39;m <span>Shanto</span>{" "}
                 <span className=" text-[#500E5B]">Sarkar</span>
               </h1>
               <p className="text-sm  text-white break-words md:text-[12px] lg:text-[18px] leading-[35px]">
-              Web developers design and build websites, coding with HTML, CSS, and JavaScript to create functional and visually appealing online platforms.
+              Web developers design and build websites, coding with HTML, CSS, and JavaScript to create functional
+               and visually appealing online platforms.
               </p>
               <div className="flex justify-center md:justify-start pb-16 md:pb-0">
                 <button

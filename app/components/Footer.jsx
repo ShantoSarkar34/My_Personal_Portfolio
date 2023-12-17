@@ -58,19 +58,24 @@ function Footer() {
               </p>
             </div>
             <div className="text-white py-4 flex items-center gap-4">
-              <Link href={"https://www.facebook.com/profile.php?id=100074954247920&mibextid=ZbWKwL"}>
+              <Link href={"https://www.facebook.com/profile.php?id=100074954247920&mibextid=ZbWKwL"} 
+              target="blank">
               <BsFacebook className="hover:text-[#9925BA] md:text-[1.5rem]" />
               </Link>
-              <Link href={"#"}>
+              <Link href={"#"} 
+              target="blank">
               <BsTwitter className="hover:text-[#9925BA] md:text-[1.5rem]" />
               </Link>
-              <Link href={"https://github.com/ShantoSarkar34"}>
+              <Link href={"https://github.com/ShantoSarkar34"} 
+              target="blank">
               <BsGithub className="hover:text-[#9925BA] md:text-[1.5rem]" />
               </Link>
-              <Link href={"https://www.linkedin.com/in/shanto9070/"}>
+              <Link href={"https://www.linkedin.com/in/shanto9070/"} 
+              target="blank">
               <BsLinkedin className="hover:text-[#9925BA] md:text-[1.5rem]" />
               </Link>
-              <Link href={"https://www.instagram.com/shanto9070.me/"}>
+              <Link href={"https://www.instagram.com/shanto9070.me/"} 
+              target="blank">
               <BsInstagram className="hover:text-[#9925BA] md:text-[1.5rem]" />
               </Link>
             </div>
@@ -99,6 +104,7 @@ function Footer() {
                   <Link
                     href={"#"}
                     className="hover:text-[#9925BA] hover:underline"
+                    target="blank"
                   >
                     Github
                   </Link>
@@ -107,6 +113,7 @@ function Footer() {
                   <Link
                     href={"#"}
                     className="hover:text-[#9925BA] hover:underline"
+                    target="blank"
                   >
                     Discord
                   </Link>
@@ -115,6 +122,7 @@ function Footer() {
                   <Link
                     href={"https://www.facebook.com/profile.php?id=100074954247920&mibextid=ZbWKwL"}
                     className="hover:text-[#9925BA] hover:underline"
+                    target="blank"
                   >
                     Facebook
                   </Link>
@@ -123,6 +131,7 @@ function Footer() {
                   <Link
                     href={"#"}
                     className="hover:text-[#9925BA] hover:underline"
+                    target="blank"
                   >
                     Twitter
                   </Link>
@@ -131,6 +140,7 @@ function Footer() {
                   <Link
                     href={"#"}
                     className="hover:text-[#9925BA] hover:underline"
+                    target="blank"
                   >
                     Youtube
                   </Link>
@@ -231,7 +241,7 @@ function Footer() {
           </span>{" "}
           | Created by{" "}
           <span className="text-white text-[1rem] hover:text-[#9925BA] hover:underline cursor-pointer">
-            Shanto Sarkar
+            Shanto9070
           </span>
           .
         </p>
