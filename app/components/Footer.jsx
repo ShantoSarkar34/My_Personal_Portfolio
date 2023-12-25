@@ -236,12 +236,15 @@ function Footer() {
       <div className="bg-black py-10 text-center">
         <p className="text-[#6C757D] text-[0.9rem]">
           © Copyright 2023{" "}
-          <span className="text-white text-[1rem] hover:text-[#9925BA] hover:underline cursor-pointer">
-            Byte Busters
+          <span>
+          <Link href={"/"} className="text-white text-[1rem] hover:text-[#9925BA] hover:underline">Byte Busters
+            </Link>
+            
           </span>{" "}
           | Created by{" "}
-          <span className="text-white text-[1rem] hover:text-[#9925BA] hover:underline cursor-pointer">
-            Shanto9070
+          <span>
+            <Link href={"https://shanto9070.vercel.app/"} target="blank" className="text-white text-[1rem] hover:text-[#9925BA] hover:underline">Shanto9070
+            </Link>
           </span>
           .
         </p>

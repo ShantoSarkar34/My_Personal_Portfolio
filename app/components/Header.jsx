@@ -141,22 +141,22 @@ export default function Header() {
         <Typography
           as="a"
           href="#"
-          className="mr-4 cursor-pointer font-medium  transition-all duration-200 flex items-center gap-1"
+          className="mr-4 cursor-pointer font-medium  transition-all duration-200 flex items-center"
         >
           <Image
            src={logo} 
            height={80} 
            width={60} 
            alt="logo"
-           className="lg:w-20 rotate-6"
+           className="lg:w-16 rotate-6"
            />
            <div className="text-center">
-            <h3 className="font-bold text-[1.2rem] md:text-[1.9rem]">Byte <span className="text-[#500E5B]">Busters</span></h3>
-            <p className="mt-[-4px] text-[0.6rem] lg:text-[0.8rem] lg:mt-[-5px]">Community</p>
+            <h3 className="font-bold text-[1.2rem] md:text-[1.5rem]">Byte <span className="text-[#500E5B]">Busters</span></h3>
+            <p className="mt-[-4px] text-start text-[0.6rem] lg:text-[0.8rem] lg:mt-[-5px]">Community</p>
            </div>
         </Typography>
         <div className="flex items-center">
-          <div className="mr-4 hidden lg:block">{navList}</div>
+          <div className="mr-4 hidden lg:block lg:pr-28">{navList}</div>
           <Button
             variant="gradient"
             size="sm"
@@ -169,7 +169,7 @@ export default function Header() {
               offset={-100}
               duration={1000}
             >
-            <div className="flex gap-3 items-center py-[0.8rem] px-9 border-[1px] border-[#500E5B] backgroundcolor rounded-full animate-pulse hover:animate-none hover:text-white  text-[#fff]  transition-all duration-200 ">
+            <div className="flex gap-3 items-center py-[0.7rem] px-8 border-[1px] border-[#500E5B] backgroundcolor rounded-[10px] animate-pulse hover:animate-none hover:text-white  text-[#fff]  transition-all duration-200 ">
             <p className="text-[1rem] font-bold">Buy Now</p>
             <div className="p-2 bg-[#500E5B] rounded-full animate-pulse">
             <FaPhoneAlt className="text-[1.1rem] text-white"/>
