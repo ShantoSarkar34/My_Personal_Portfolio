@@ -14,13 +14,13 @@ import {
 function Footer() {
   return (
     <section id="footer">
-      <div className="bg-[#151414] w-full pt-4 pb-10">
+      <div className="bg-[#151414] w-full pt-4 pb-10 lg:-mt-2">
         <div className="container mx-auto px-6 lg:px-[2.5rem] ">
           <div className="grid grid-cols-1 gap-5 items-center md:grid-cols-2  lg:grid-cols-3 lg:justify-items-center">
             <div className="flex items-center gap-3 lg:-ml-10">
               <FiPhoneCall className="text-[#7321B1] text-[2.5rem] lg:text-[4.5rem]" />
               <div>
-                <h3 className="text-white hover:text-[#7321B1] text-[1.1rem] font-semibold lg:text-[1.3rem]">
+                <h3 className="text-white hover:text-[#7321B1] text-[1.1rem] font-semibold lg:text-[1.3rem] cursor-pointer">
                   +880 1783-805534
                 </h3>
                 <p className="text-[#464B4F] font-semibold lg:text-[1.1rem]">
@@ -31,7 +31,7 @@ function Footer() {
             <div className="flex items-center gap-3">
               <TbMailOpened className="text-[#7321B1] text-[2.5rem] lg:text-[4.5rem]" />
               <div>
-                <h3 className="text-white hover:text-[#7321B1] text-[1.1rem] font-semibold lg:text-[1.3rem]">
+                <h3 className="text-white hover:text-[#7321B1] text-[1.1rem] font-semibold lg:text-[1.3rem] cursor-pointer">
                   bytebuster9070@gmail.com
                 </h3>
                 <p className="text-[#464B4F] font-semibold lg:text-[1.1rem]">
@@ -42,7 +42,7 @@ function Footer() {
             <div className=" flex gap-3 items-center">
               <RiUserLocationLine className="text-[#7321B1] text-[2.5rem] lg:text-[4.5rem]" />
               <div>
-                <h3 className="text-white hover:text-[#7321B1] text-[1.1rem] font-semibold lg:text-[1.3rem]">
+                <h3 className="text-white hover:text-[#7321B1] text-[1.1rem] font-semibold lg:text-[1.3rem] cursor-pointer">
                   Rajshahi,Bangladesh
                 </h3>
                 <p className="text-[#464B4F] font-semibold lg:text-[1.1rem]">
@@ -103,7 +103,7 @@ function Footer() {
                 Byte Busters
               </h2>
               <p className="my-3 h-[3px] w-[100px] bg-[#504F4F]"></p>
-              <p className="leading-[23px] text-[#b1aeae] text-[0.9rem]">
+              <p className="leading-[23px] text-[#b1aeae] text-[0.9rem] lg:pr-10">
                 A developer and marketing company integrates technical prowess
                 with strategic marketing to provide businesses with
                 comprehensive digital solutions, encompassing web and app
@@ -238,18 +238,18 @@ function Footer() {
                 <li>
                   <Link
                     href={"#"}
-                    className="hover:text-[#9925BA] hover:underline"
+                    className="hover:text-[#9925BA] hover:underline "
                   >
                     +880 1783-805534
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    href={"#"}
-                    className="hover:text-[#9925BA] hover:underline"
+                  <button
+                    type="button"
+                    className="hover:text-[#9925BA]  cursor-not-allowed"
                   >
-                    +880 1977-527672
-                  </Link>
+                    <del>+880 1977-527672</del>
+                  </button>
                 </li>
               </ul>
             </div>

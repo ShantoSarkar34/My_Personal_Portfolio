@@ -44,7 +44,7 @@ function Service() {
 
           {/* service section Marketing section start  */}
 
-          <div className="pt-10 flex flex-col md:flex-row-reverse md:gap-6 ">
+          <div className="pt-10 flex flex-col md:flex-row-reverse md:gap-6  ">
             <div>
               <Image
                 src={service_img_1}
@@ -78,7 +78,7 @@ function Service() {
 
           {/* Web developmtnt section start  */}
 
-          <div className="pt-10 flex flex-col md:flex-row md:gap-6 lg:gap-10">
+          <div className="pt-10 flex flex-col md:flex-row md:gap-6 lg:gap-10 lg:pt-5">
             <div>
               <Image
                 src={service_img_2}
@@ -116,7 +116,7 @@ function Service() {
 
           {/* cloud hosting section start  */}
 
-          <div className="pt-10 flex flex-col md:flex-row-reverse md:gap-6 ">
+          <div className="pt-10 flex flex-col md:flex-row-reverse md:gap-6  lg:pt-0">
             <div>
               <Image
                 src={service_img_3}
