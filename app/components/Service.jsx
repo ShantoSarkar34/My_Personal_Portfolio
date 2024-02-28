@@ -33,7 +33,10 @@ function Service() {
             <p className=" h-[10rem] w-[1px] bg-[#6F7275] hidden md:block lg:h-[8rem]"></p>
             <div>
               <p className="px-2 text-[#6F7275] text-[1rem] leading-[25px] font-sans">
-              Developer and marketing services combine technical expertise with strategic promotion. They offer web development, app creation, and marketing strategies to help businesses thrive in the digital landscape.
+                Developer and marketing services combine technical expertise
+                with strategic promotion. They offer web development, app
+                creation, and marketing strategies to help businesses thrive in
+                the digital landscape.
               </p>
             </div>
           </div>
@@ -41,7 +44,7 @@ function Service() {
 
           {/* service section Marketing section start  */}
 
-        <div className="pt-10 flex flex-col md:flex-row-reverse md:gap-6 ">
+          <div className="pt-10 flex flex-col md:flex-row-reverse md:gap-6 ">
             <div>
               <Image
                 src={service_img_1}
@@ -57,7 +60,10 @@ function Service() {
                 Marketing
               </h3>
               <p className="text-[0.8rem] text-[#212529] lg:text-[1.1rem]">
-              Marketing is the strategic practice of promoting products or services to a target audience through advertising, research, and communication, with the goal of attracting customers and achieving business objectives.
+                Marketing is the strategic practice of promoting products or
+                services to a target audience through advertising, research, and
+                communication, with the goal of attracting customers and
+                achieving business objectives.
               </p>
               <div className="py-5 flex">
                 <button className="flex gap-4 items-center border-[1px] border-[#A034F1] bg-white py-2 px-4 rounded-full hover:text-white hover:bg-[#500E5B] transition-all duration-300">
@@ -70,9 +76,9 @@ function Service() {
             </div>
           </div>
 
-           {/* Web developmtnt section start  */}
+          {/* Web developmtnt section start  */}
 
-           <div className="pt-10 flex flex-col md:flex-row md:gap-6 lg:gap-10">
+          <div className="pt-10 flex flex-col md:flex-row md:gap-6 lg:gap-10">
             <div>
               <Image
                 src={service_img_2}
@@ -85,30 +91,32 @@ function Service() {
             <div className="">
               <div className="mt-5 lg:mt-20">
                 <div className="">
-              <FaCode className="text-[#9926F0] text-[1.4rem] lg:text-[2rem]"/>
+                  <FaCode className="text-[#9926F0] text-[1.4rem] lg:text-[2rem]" />
                 </div>
-              <h3 className="py-2 text-[1.1rem] font-bold text-[#B52FEC] lg:text-[2rem]">
-              Web Development
-              </h3>
-              <p className="text-[0.8rem] text-[#212529] lg:text-[1.1rem]">
-              
-              Development denotes progress and improvement, encompassing economic, social, and personal aspects. It involves enhancing infrastructure, education, and living standards for a better quality of life and sustainable growth.
-              </p>
-              <div className="py-5 ">
-                <button className="flex gap-4 items-center border-[1px] border-[#A034F1] bg-white py-2 px-4 rounded-full hover:text-white hover:bg-[#500E5B] transition-all duration-300">
-                  <p className="text-[1rem] font-bold">Learn more</p>
-                  <div className="bg-[#A330EF] p-2 rounded-full">
-                    <FaArrowRight className="text-[1.1rem]  text-white" />
-                  </div>
-                </button>
-              </div>
+                <h3 className="py-2 text-[1.1rem] font-bold text-[#B52FEC] lg:text-[2rem]">
+                  Web Development
+                </h3>
+                <p className="text-[0.8rem] text-[#212529] lg:text-[1.1rem]">
+                  Development denotes progress and improvement, encompassing
+                  economic, social, and personal aspects. It involves enhancing
+                  infrastructure, education, and living standards for a better
+                  quality of life and sustainable growth.
+                </p>
+                <div className="py-5 ">
+                  <button className="flex gap-4 items-center border-[1px] border-[#A034F1] bg-white py-2 px-4 rounded-full hover:text-white hover:bg-[#500E5B] transition-all duration-300">
+                    <p className="text-[1rem] font-bold">Learn more</p>
+                    <div className="bg-[#A330EF] p-2 rounded-full">
+                      <FaArrowRight className="text-[1.1rem]  text-white" />
+                    </div>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
 
-           {/* cloud hosting section start  */}
+          {/* cloud hosting section start  */}
 
-           <div className="pt-10 flex flex-col md:flex-row-reverse md:gap-6 ">
+          <div className="pt-10 flex flex-col md:flex-row-reverse md:gap-6 ">
             <div>
               <Image
                 src={service_img_3}
@@ -124,7 +132,10 @@ function Service() {
                 Cloud Hosting
               </h3>
               <p className="text-[0.8rem] text-[#212529] lg:text-[1.1rem]">
-              Cloud hosting is a modern web hosting solution that stores website data and applications on remote servers, offering scalability, flexibility, and cost-efficiency while ensuring reliable access and data security.
+                Cloud hosting is a modern web hosting solution that stores
+                website data and applications on remote servers, offering
+                scalability, flexibility, and cost-efficiency while ensuring
+                reliable access and data security.
               </p>
               <div className="py-5 flex">
                 <button className="flex gap-4 items-center border-[1px] border-[#A034F1] bg-white py-2 px-4 rounded-full hover:text-white hover:bg-[#500E5B] transition-all duration-300">
@@ -136,16 +147,15 @@ function Service() {
               </div>
             </div>
           </div>
-
         </div>
       </div>
-            {/* ====================================== */}
-            {/* hire me section start */}
+      {/* ====================================== */}
+      {/* hire me section start */}
 
-            <section className="hire_bg_img w-full">
+      <section className="hire_bg_img w-full">
         <div className=" py-[5rem]">
           <div className="text-center font-semibold text-white text-[1.3rem] md:text-[1.9rem]">
-              Any Project On Your Mind?
+            Any Project On Your Mind?
           </div>
           <div className="flex gap-x-2 md:gap-5 justify-center flex-wrap">
             <div>
@@ -160,13 +170,13 @@ function Service() {
             </div>
             <div>
               <Link
-              activeClass="active"
-              to="footer"
-              spy={true}
-              smooth={true}
-              offset={-70} // Adjust this offset based on your layout
-              duration={500}
-              className=" flex flex-row-reverse gap-2 backgroundcolor2 
+                activeClass="active"
+                to="footer"
+                spy={true}
+                smooth={true}
+                offset={-70} // Adjust this offset based on your layout
+                duration={500}
+                className=" flex flex-row-reverse gap-2 backgroundcolor2 
                  hover:text-white transition-all duration-300
                  font-semibold  py-[.9rem] px-[2rem] shadow-sm  space-x-2 items-center
                   text-primary mt-10 rounded-full cursor-pointer"
@@ -178,7 +188,7 @@ function Service() {
           </div>
         </div>
       </section>
-      
+
       {/* hire me section end */}
       {/* ====================================== */}
     </section>

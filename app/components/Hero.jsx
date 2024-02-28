@@ -9,21 +9,22 @@ import { FaArrowRight } from "react-icons/fa";
 function Hero() {
   return (
     <section id="hero">
-      <div className="w-full backgroundcolor pt-[7rem] md:pt-[12rem] xl:pt-[7rem]">
-        <div className="container mx-auto px-6 lg:px-[4rem]">
+      <div className="w-full backgroundcolor pt-[7rem] md:pt-[8rem] xl:pt-[7rem]">
+        <div className="container mx-auto px-4 lg:px-[4rem]">
           <div className="flex flex-col-reverse gap-5 items-center md:flex-row  md:justify-between lg:gap-16">
             {/* Hero section text start */}
 
             <div className="space-y-5 text-center md:text-start space">
-              <h1 className="text-[3.5rem] leading-tight font font-extrabold text-white lg:text-[4rem]">
+              <h1 className="text-[2.5rem] leading-tight font font-extrabold text-white lg:text-7xl lg:leading-[88px]">
                 Hey!, I&#39;m <span>Shanto</span>{" "}
                 <span className=" text-[#500E5B]">Sarkar</span>
               </h1>
-              <p className="text-sm  text-white break-words md:text-[12px] lg:text-[18px] leading-[35px]">
-              Web developers design and build websites, coding with HTML, CSS, and JavaScript to create functional
-               and visually appealing online platforms.
+              <p className="text-sm  text-white break-words md:text-[12px] lg:text-[18px] leading-5 lg:leading-8">
+                Web developers design and build websites, coding with HTML, CSS,
+                and JavaScript to create functional and visually appealing
+                online platforms.
               </p>
-              <div className="flex justify-center md:justify-start pb-16 md:pb-0">
+              <div className="pt-10 flex justify-center md:justify-start pb-16 md:pb-0">
                 <button
                   className="flex gap-4 items-center border-[1px] bg-white py-3 px-6 rounded-full
                  hover:text-white hover:bg-[#500E5B] transition-all duration-300"
@@ -46,13 +47,13 @@ function Hero() {
                 className="bg-cover md:w-[40rem] lg:w-[60rem]"
               />
             </div> */}
-            <div className="imgstyle transform scale-x-[-1]  md:-mt-16 lg:mt-0">
+            <div className="imgstyle transform scale-x-[-1] md:-mt-16 lg:mt-0">
               <Image
                 src={hero_img_me}
                 alt="Hero_image"
                 height={400}
                 width={400}
-                className=" bg-cover w-[30rem] md:w-[50rem] lg:w-[60rem] rotate-[10deg]"
+                className=" bg-cover w-[28rem] md:w-[50rem] lg:w-[60rem] rotate-[10deg]"
               />
             </div>
           </div>

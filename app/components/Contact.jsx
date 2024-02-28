@@ -17,7 +17,7 @@ function Contact() {
         </div>
         {/* ================================== */}
 
-        <div className="container mx-auto px-6 lg:px-[2.5rem] ">
+        <div className="container mx-auto px-6 lg:px-[4rem] ">
           <div className=" pb-10 flex items-center justify-center gap-1">
             <p className="h-[4px] w-[40px] bg-white rounded-full"></p>
             <h2 className="text-[2.4rem] text-center font-extrabold text-white">

@@ -11,7 +11,6 @@ import {
   BsInstagram,
 } from "react-icons/bs";
 
-
 function Footer() {
   return (
     <section id="footer">
@@ -24,7 +23,9 @@ function Footer() {
                 <h3 className="text-white hover:text-[#7321B1] text-[1.1rem] font-semibold lg:text-[1.3rem]">
                   +880 1783-805534
                 </h3>
-                <p className="text-[#464B4F] font-semibold lg:text-[1.1rem]">Mon-Fri 9am-6pm</p>
+                <p className="text-[#464B4F] font-semibold lg:text-[1.1rem]">
+                  Mon-Fri 9am-6pm
+                </p>
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -33,7 +34,9 @@ function Footer() {
                 <h3 className="text-white hover:text-[#7321B1] text-[1.1rem] font-semibold lg:text-[1.3rem]">
                   bytebuster9070@gmail.com
                 </h3>
-                <p className="text-[#464B4F] font-semibold lg:text-[1.1rem]">Online support</p>
+                <p className="text-[#464B4F] font-semibold lg:text-[1.1rem]">
+                  Online support
+                </p>
               </div>
             </div>
             <div className=" flex gap-3 items-center">
@@ -42,7 +45,9 @@ function Footer() {
                 <h3 className="text-white hover:text-[#7321B1] text-[1.1rem] font-semibold lg:text-[1.3rem]">
                   Rajshahi,Bangladesh
                 </h3>
-                <p className="text-[#464B4F] font-semibold lg:text-[1.1rem]">Dhunat,Bogura</p>
+                <p className="text-[#464B4F] font-semibold lg:text-[1.1rem]">
+                  Dhunat,Bogura
+                </p>
               </div>
             </div>
           </div>
@@ -58,25 +63,31 @@ function Footer() {
               </p>
             </div>
             <div className="text-white py-4 flex items-center gap-4">
-              <Link href={"https://www.facebook.com/profile.php?id=100074954247920&mibextid=ZbWKwL"} 
-              target="blank">
-              <BsFacebook className="hover:text-[#9925BA] md:text-[1.5rem]" />
+              <Link
+                href={
+                  "https://www.facebook.com/profile.php?id=100074954247920&mibextid=ZbWKwL"
+                }
+                target="blank"
+              >
+                <BsFacebook className="hover:text-[#9925BA] md:text-[1.5rem]" />
               </Link>
-              <Link href={"#"} 
-              target="blank">
-              <BsTwitter className="hover:text-[#9925BA] md:text-[1.5rem]" />
+              <Link href={"#"} target="blank">
+                <BsTwitter className="hover:text-[#9925BA] md:text-[1.5rem]" />
               </Link>
-              <Link href={"https://github.com/ShantoSarkar34"} 
-              target="blank">
-              <BsGithub className="hover:text-[#9925BA] md:text-[1.5rem]" />
+              <Link href={"https://github.com/ShantoSarkar34"} target="blank">
+                <BsGithub className="hover:text-[#9925BA] md:text-[1.5rem]" />
               </Link>
-              <Link href={"https://www.linkedin.com/in/shanto9070/"} 
-              target="blank">
-              <BsLinkedin className="hover:text-[#9925BA] md:text-[1.5rem]" />
+              <Link
+                href={"https://www.linkedin.com/in/shanto9070/"}
+                target="blank"
+              >
+                <BsLinkedin className="hover:text-[#9925BA] md:text-[1.5rem]" />
               </Link>
-              <Link href={"https://www.instagram.com/shanto9070.me/"} 
-              target="blank">
-              <BsInstagram className="hover:text-[#9925BA] md:text-[1.5rem]" />
+              <Link
+                href={"https://www.instagram.com/shanto9070.me/"}
+                target="blank"
+              >
+                <BsInstagram className="hover:text-[#9925BA] md:text-[1.5rem]" />
               </Link>
             </div>
           </div>
@@ -88,16 +99,23 @@ function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 xl:grid-cols-6 xl:gap-1">
             {/* grid 1 */}
             <div className="text-white xl:col-span-3">
-              <h2 className="text-[1.1rem] text-[#9925BA] font-bold lg:text-[2rem]">Byte Busters</h2>
+              <h2 className="text-[1.1rem] text-[#9925BA] font-bold lg:text-[2rem]">
+                Byte Busters
+              </h2>
               <p className="my-3 h-[3px] w-[100px] bg-[#504F4F]"></p>
               <p className="leading-[23px] text-[#b1aeae] text-[0.9rem]">
-              A developer and marketing company integrates technical prowess with strategic marketing to provide businesses with comprehensive digital solutions, encompassing web and app development, ensuring online success and growth.
+                A developer and marketing company integrates technical prowess
+                with strategic marketing to provide businesses with
+                comprehensive digital solutions, encompassing web and app
+                development, ensuring online success and growth.
               </p>
             </div>
             {/* grid 2 */}
 
             <div className="text-white mt-8 md:mt-0 ">
-              <h2 className="text-[1.1rem] font-bold lg:text-[1.2rem]">Community</h2>
+              <h2 className="text-[1.1rem] font-bold lg:text-[1.2rem]">
+                Community
+              </h2>
               <p className="my-3 h-[2px] w-[85px] bg-[#9925BA]"></p>
               <ul className="space-y-2 text-[#b1aeae]">
                 <li>
@@ -120,7 +138,9 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    href={"https://www.facebook.com/profile.php?id=100074954247920&mibextid=ZbWKwL"}
+                    href={
+                      "https://www.facebook.com/profile.php?id=100074954247920&mibextid=ZbWKwL"
+                    }
                     className="hover:text-[#9925BA] hover:underline"
                     target="blank"
                   >
@@ -151,7 +171,9 @@ function Footer() {
             {/* grid 3 */}
 
             <div className="text-white mt-8 md:mt-0 xl:-ml-10">
-              <h2 className="text-[1.1rem] font-bold lg:text-[1.2rem]">Useful Links</h2>
+              <h2 className="text-[1.1rem] font-bold lg:text-[1.2rem]">
+                Useful Links
+              </h2>
               <p className="my-4 h-[2px] w-[85px] bg-[#9925BA]"></p>
               <ul className="space-y-2 text-[#b1aeae]">
                 <li>
@@ -200,7 +222,9 @@ function Footer() {
             {/* grid 4 */}
 
             <div className="text-white mt-8 md:mt-0 xl:-ml-10">
-              <h2 className="text-[1.1rem] font-bold lg:text-[1.2rem]">Contact</h2>
+              <h2 className="text-[1.1rem] font-bold lg:text-[1.2rem]">
+                Contact
+              </h2>
               <p className="my-4 h-[2px] w-[85px] bg-[#9925BA]"></p>
               <ul className="space-y-2 text-[#b1aeae]">
                 <li>
@@ -237,13 +261,21 @@ function Footer() {
         <p className="text-[#6C757D] text-[0.9rem]">
           © Copyright 2023{" "}
           <span>
-          <Link href={"/"} className="text-white text-[1rem] hover:text-[#9925BA] hover:underline">Byte Busters
+            <Link
+              href={"/"}
+              className="text-white text-[1rem] hover:text-[#9925BA] hover:underline"
+            >
+              Byte Busters
             </Link>
-            
           </span>{" "}
           | Created by{" "}
           <span>
-            <Link href={"https://shanto9070.vercel.app/"} target="blank" className="text-white text-[1rem] hover:text-[#9925BA] hover:underline">Shanto9070
+            <Link
+              href={"https://shanto9070.vercel.app/"}
+              target="blank"
+              className="text-white text-[1rem] hover:text-[#9925BA] hover:underline"
+            >
+              Shanto9070
             </Link>
           </span>
           .

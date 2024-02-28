@@ -4,12 +4,12 @@ import Image from "next/image";
 import pricing_img from "../img/price-icon_1.png";
 import { ImCheckmark } from "react-icons/im";
 import { FaArrowRight } from "react-icons/fa";
-import {MdPriceChange} from "react-icons/md"
+import { MdPriceChange } from "react-icons/md";
 
 function Pricing() {
   return (
     <section id="pricing">
-      <div className="container mx-auto px-6 lg:px-[2.5rem] xl:px-[rem] py-10">
+      <div className="container mx-auto px-6 lg:px-[4rem] py-10">
         <div className="pb-10 flex items-center justify-center gap-1">
           <p className="h-[4px] w-[40px] bg-[#D02DE5] rounded-full"></p>
           <h2 className="text-[2.4rem] text-center font-extrabold text-[#212529]">
@@ -24,11 +24,12 @@ function Pricing() {
           <div className=" p-8 w-full backgroundcolor shadow-lg hover:text-[#fff] transition duration-200">
             <div>
               {/* <Image src={pricing_img} alt="pricing-logo" /> */}
-              <MdPriceChange className="text-[4rem] text-white"/>
+              <MdPriceChange className="text-[4rem] text-white" />
             </div>
 
             <h3 className="text-[2rem] font-bold mt-4">
-             Bacic <span className="font-semibold text-[1.2rem]">/ Per Month</span>
+              Bacic{" "}
+              <span className="font-semibold text-[1.2rem]">/ Per Month</span>
             </h3>
             <p className="text-black text-[14px] py-5  border-dashed border-b-2">
               Setup and Fix GMC + Products Feed + 50 Products Activations + Run
@@ -41,9 +42,7 @@ function Pricing() {
               </li>
               <li className="flex gap-4 items-center">
                 <ImCheckmark />
-                <p className="text-black text-[14px]">
-                 Ad accounts connection
-                </p>
+                <p className="text-black text-[14px]">Ad accounts connection</p>
               </li>
               <li className="flex gap-4 items-center">
                 <ImCheckmark />
@@ -83,10 +82,11 @@ function Pricing() {
           <div className=" p-8 w-full backgroundcolor shadow-lg hover:text-[#fff] transition duration-200">
             <div>
               {/* <Image src={pricing_img} alt="pricing-logo" /> */}
-              <MdPriceChange className="text-[4rem] text-white"/>
+              <MdPriceChange className="text-[4rem] text-white" />
             </div>
             <h3 className="text-[2rem] font-bold mt-4">
-             Standard <span className="font-semibold text-[1.2rem]">/ Per Month</span>
+              Standard{" "}
+              <span className="font-semibold text-[1.2rem]">/ Per Month</span>
             </h3>
             <p className="text-black text-[14px] py-5 border-dashed border-b-2">
               I will setup and manage your google ads adwords ppc campaigns
@@ -139,10 +139,11 @@ function Pricing() {
           >
             <div>
               {/* <Image src={pricing_img} alt="pricing-logo" /> */}
-              <MdPriceChange className="text-[4rem] text-white"/>
+              <MdPriceChange className="text-[4rem] text-white" />
             </div>
             <h3 className="text-[2rem] font-bold mt-4">
-             Premium <span className="font-semibold text-[1.2rem]">/ Per Month</span>
+              Premium{" "}
+              <span className="font-semibold text-[1.2rem]">/ Per Month</span>
             </h3>
             <p className="text-black text-[14px] py-5 border-dashed border-b-2">
               I will setup facebook ads campaign and instagram marketing Expert
@@ -201,10 +202,11 @@ function Pricing() {
           <div className=" p-8 w-full backgroundcolor shadow-lg hover:text-[#fff] transition duration-200">
             <div>
               {/* <Image src={pricing_img} alt="pricing-logo" /> */}
-              <MdPriceChange className="text-[4rem] text-white"/>
+              <MdPriceChange className="text-[4rem] text-white" />
             </div>
             <h3 className="text-[2rem] font-bold mt-4">
-             Business <span className="font-semibold text-[1.2rem]">/ Per Month</span>
+              Business{" "}
+              <span className="font-semibold text-[1.2rem]">/ Per Month</span>
             </h3>
             <p className="text-black text-[14px] py-5 border-dashed border-b-2">
               I will setup and optimize your linkedin ads for business
@@ -258,11 +260,12 @@ function Pricing() {
           <div className=" p-8 w-full backgroundcolor shadow-lg hover:text-[#fff] transition duration-200">
             <div>
               {/* <Image src={pricing_img} alt="pricing-logo" /> */}
-              <MdPriceChange className="text-[4rem] text-white"/>
+              <MdPriceChange className="text-[4rem] text-white" />
             </div>
 
             <h3 className="text-[2rem] font-bold mt-4">
-             Developer <span className="font-semibold text-[1.2rem]">/ Per Month</span>
+              Developer{" "}
+              <span className="font-semibold text-[1.2rem]">/ Per Month</span>
             </h3>
             <p className="text-[#111111] text-[14px] py-5 border-dashed border-b-2">
               I will setup profitable shopify store design

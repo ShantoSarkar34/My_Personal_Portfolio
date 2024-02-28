@@ -2,16 +2,17 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-
 function About() {
   return (
     <section id="about">
       <div className=" bg-[#FFFF] w-full -mt-4">
         <div className="container mx-auto px-6 lg:px-[2.5rem]">
           <div className=" md:p-4 xl:p-8">
-          <div className="pb-16 flex items-center justify-center gap-1">
+            <div className="pb-16 flex items-center justify-center gap-1">
               <p className="h-[4px] w-[40px] bg-[#D02DE5] rounded-full"></p>
-              <h2 className="text-[2.4rem] text-center font-extrabold text-[#212529]">About Me</h2>
+              <h2 className="text-[2.4rem] text-center font-extrabold text-[#212529]">
+                About Me
+              </h2>
               <p className="h-[4px] w-[40px] bg-[#A231F0] rounded-full"></p>
             </div>
             {/* Expertise section start */}
@@ -68,7 +69,7 @@ function About() {
                   <div className="py-1">
                     <div className=" flex justify-between ">
                       <p className="py-4 text-[14px] text-[#6b6b6b] font-semibold">
-                      Communication skills
+                        Communication skills
                       </p>
                     </div>
                     <div className="h-[25px] w-full bg-[#F6F5FF] ">
@@ -153,25 +154,23 @@ function About() {
                       <li className="text-[1.2rem] font-semibold text-[#500E5B]">
                         Email
                       </li>
-                      <li className="text-[1.1rem]">
-                        shantomr33@gmail.com
-                      </li>
+                      <li className="text-[1.1rem]">shantomr33@gmail.com</li>
                       <li className="text-[1.2rem] font-semibold text-[#500E5B]">
                         Phone
                       </li>
                       <li className="text-[1.1rem]">+880 1783-805534</li>
                     </ul>
                   </div>
-                  <div className="-mt-[1px] border-2 w-full border-[#CE2DE6] py-3 px-4 
+                  <div
+                    className="-mt-[1px] border-2 w-full border-[#CE2DE6] py-3 px-4 
                   rounded-b-[10px] md:rounded-r-[10px] md:-ml-[1.5px] md:p-8 md:rounded-l-none md:mt-0 border-t-0 md:border-t-2
-                  lg:p-4 2xl:pr-20">
+                  lg:p-4 2xl:pr-20"
+                  >
                     <ul className="space-y-2">
                       <li className="text-[1.2rem] font-semibold text-[#500E5B]">
                         Address
                       </li>
-                      <li className="text-[1.1rem]">
-                       Dhunat,Bogura,Rajshahi.
-                      </li>
+                      <li className="text-[1.1rem]">Dhunat,Bogura,Rajshahi.</li>
                       <li className="text-[1.2rem] font-semibold text-[#500E5B]">
                         Degree
                       </li>
@@ -190,7 +189,6 @@ function About() {
           </div>
         </div>
       </div>
-
     </section>
   );
 }

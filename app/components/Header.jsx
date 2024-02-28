@@ -10,11 +10,9 @@ import Image from "next/image";
 import * as Scroll from "react-scroll";
 import { Link } from "react-scroll";
 import logo from "../img/LOGO-IMG.png";
-import logo2 from "../img/byte_buster_logo.png"
-import {FaPhoneAlt} from "react-icons/fa"
-import {GiHamburgerMenu,GiCrossedSwords} from "react-icons/gi"
-
-
+import logo2 from "../img/byte_buster_logo.png";
+import { FaPhoneAlt } from "react-icons/fa";
+import { GiHamburgerMenu, GiCrossedSwords } from "react-icons/gi";
 
 export default function Header() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -40,7 +38,8 @@ export default function Header() {
           smooth={true}
           offset={-70} // Adjust this offset based on your layout
           duration={500}
-         className="flex text-[1.1rem] items-center text-white cursor-pointer tracking-[1px]">
+          className="flex text-[1.1rem] items-center text-white cursor-pointer tracking-[1px]"
+        >
           Home
         </Link>
       </Typography>
@@ -51,13 +50,14 @@ export default function Header() {
         className="py-3 font-medium border-b-[1px] lg:border-none"
       >
         <Link
-         activeClass="active"
-         to="about"
-         spy={true}
-         smooth={true}
-         offset={-70} // Adjust this offset based on your layout
-         duration={500} 
-         className="flex items-center text-[1.1rem] cursor-pointer tracking-[1px] text-[#EBC8FA] hover:text-white transition-all duration-200">
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-70} // Adjust this offset based on your layout
+          duration={500}
+          className="flex items-center text-[1.1rem] cursor-pointer tracking-[1px] text-[#EBC8FA] hover:text-white transition-all duration-200"
+        >
           About
         </Link>
       </Typography>
@@ -68,13 +68,14 @@ export default function Header() {
         className="py-3 font-medium border-b-[1px] lg:border-none"
       >
         <Link
-         activeClass="active"
-         to="service"
-         spy={true}
-         smooth={true}
-         offset={-70} // Adjust this offset based on your layout
-         duration={500} 
-         className="flex items-center text-[1.1rem] cursor-pointer tracking-[1px] text-[#EBC8FA] hover:text-white transition-all duration-200">
+          activeClass="active"
+          to="service"
+          spy={true}
+          smooth={true}
+          offset={-70} // Adjust this offset based on your layout
+          duration={500}
+          className="flex items-center text-[1.1rem] cursor-pointer tracking-[1px] text-[#EBC8FA] hover:text-white transition-all duration-200"
+        >
           Service
         </Link>
       </Typography>
@@ -85,13 +86,14 @@ export default function Header() {
         className="py-3 font-medium border-b-[1px] lg:border-none"
       >
         <Link
-         activeClass="active"
-         to="portfolio"
-         spy={true}
-         smooth={true}
-         offset={-70} // Adjust this offset based on your layout
-         duration={500} 
-         className="flex items-center text-[1.1rem] cursor-pointer tracking-[1px] text-[#EBC8FA] hover:text-white transition-all duration-200">
+          activeClass="active"
+          to="portfolio"
+          spy={true}
+          smooth={true}
+          offset={-70} // Adjust this offset based on your layout
+          duration={500}
+          className="flex items-center text-[1.1rem] cursor-pointer tracking-[1px] text-[#EBC8FA] hover:text-white transition-all duration-200"
+        >
           Portfolio
         </Link>
       </Typography>
@@ -102,13 +104,14 @@ export default function Header() {
         className="py-3 font-medium border-b-[1px] lg:border-none"
       >
         <Link
-         activeClass="active"
-         to="pricing"
-         spy={true}
-         smooth={true}
-         offset={-70} // Adjust this offset based on your layout
-         duration={500} 
-         className="flex items-center text-[1.1rem] cursor-pointer tracking-[1px] text-[#EBC8FA] hover:text-white transition-all duration-200">
+          activeClass="active"
+          to="pricing"
+          spy={true}
+          smooth={true}
+          offset={-70} // Adjust this offset based on your layout
+          duration={500}
+          className="flex items-center text-[1.1rem] cursor-pointer tracking-[1px] text-[#EBC8FA] hover:text-white transition-all duration-200"
+        >
           Pricing
         </Link>
       </Typography>
@@ -119,13 +122,14 @@ export default function Header() {
         className="py-3 font-medium border-b-[1px] lg:border-none"
       >
         <Link
-         activeClass="active"
-         to="contact"
-         spy={true}
-         smooth={true}
-         offset={-70} // Adjust this offset based on your layout
-         duration={500} 
-         className="flex items-center text-[1.1rem] cursor-pointer tracking-[1px] text-[#EBC8FA] hover:text-white transition-all duration-200">
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-70} // Adjust this offset based on your layout
+          duration={500}
+          className="flex items-center text-[1.1rem] cursor-pointer tracking-[1px] text-[#EBC8FA] hover:text-white transition-all duration-200"
+        >
           Contact
         </Link>
       </Typography>
@@ -135,25 +139,29 @@ export default function Header() {
   return (
     <Navbar
       id="header"
-      className="fixed top-0 backgroundcolor shadow-lg z-10 h-max max-w-full rounded-none py-1 container px-4 lg:px-[2.5rem]  xl:px-[5.7rem]"
+      className="fixed top-0 backgroundcolor shadow-lg z-10 h-max max-w-full rounded-none py-1"
     >
-      <div className="flex items-center container mx-auto justify-between text-blue-gray-900">
+      <div className="flex items-center container mx-auto lg:px-[4rem]  justify-between text-blue-gray-900">
         <Typography
           as="a"
           href="#"
           className="mr-4 cursor-pointer font-medium  transition-all duration-200 flex items-center"
         >
           <Image
-           src={logo} 
-           height={80} 
-           width={60} 
-           alt="logo"
-           className="lg:w-16 rotate-6"
-           />
-           <div className="text-center">
-            <h3 className="font-bold text-[1.2rem] md:text-[1.5rem]">Byte <span className="text-[#500E5B]">Busters</span></h3>
-            <p className="mt-[-4px] text-start text-[0.6rem] lg:text-[0.8rem] lg:mt-[-5px]">Community</p>
-           </div>
+            src={logo}
+            height={80}
+            width={60}
+            alt="logo"
+            className="lg:w-16 rotate-6"
+          />
+          <div className="text-center">
+            <h3 className="font-bold text-[1.2rem] md:text-[1.5rem]">
+              Byte <span className="text-[#500E5B]">Busters</span>
+            </h3>
+            <p className="mt-[-4px] text-start text-[0.6rem] lg:text-[0.8rem] lg:mt-[-5px]">
+              Community
+            </p>
+          </div>
         </Typography>
         <div className="flex items-center">
           <div className="mr-4 hidden lg:block lg:pr-28">{navList}</div>
@@ -169,13 +177,12 @@ export default function Header() {
               offset={-100}
               duration={1000}
             >
-            <div className="flex gap-3 items-center py-[0.7rem] px-8 border-[1px] border-[#500E5B] backgroundcolor rounded-[10px] animate-pulse hover:animate-none hover:text-white  text-[#fff]  transition-all duration-200 ">
-            <p className="text-[1rem] font-bold">Buy Now</p>
-            <div className="p-2 bg-[#500E5B] rounded-full animate-pulse">
-            <FaPhoneAlt className="text-[1.1rem] text-white"/>
-            </div>
-           </div>
-
+              <div className="flex gap-3 items-center py-[0.7rem] px-8 border-[1px] border-[#500E5B] backgroundcolor rounded-[10px] animate-pulse hover:animate-none hover:text-white  text-[#fff]  transition-all duration-200 ">
+                <p className="text-[1rem] font-bold">Buy Now</p>
+                <div className="p-2 bg-[#500E5B] rounded-full animate-pulse">
+                  <FaPhoneAlt className="text-[1.1rem] text-white" />
+                </div>
+              </div>
             </Link>
           </Button>
           <IconButton
@@ -185,10 +192,9 @@ export default function Header() {
             onClick={() => setOpenNav(!openNav)}
           >
             {openNav ? (
-              <GiCrossedSwords className="text-white text-2xl"/>
-              
+              <GiCrossedSwords className="text-white text-2xl" />
             ) : (
-              <GiHamburgerMenu className="text-white text-2xl"/>
+              <GiHamburgerMenu className="text-white text-2xl" />
             )}
           </IconButton>
         </div>
