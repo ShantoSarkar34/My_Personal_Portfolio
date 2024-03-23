@@ -14,12 +14,12 @@ function Hero() {
           <div className="flex flex-col-reverse gap-5 items-center md:flex-row  md:justify-between lg:gap-16">
             {/* Hero section text start */}
 
-            <div className="space-y-5 text-center md:text-start space">
-              <h1 className="text-[2.5rem] leading-tight font font-extrabold text-white lg:text-7xl lg:leading-[88px]">
+            <div className="space-y-4 text-center md:text-start space">
+              <h1 className="text-[2rem] leading-tight font font-extrabold text-white lg:text-7xl lg:leading-[88px]">
                 Hey!, I&#39;m <span>Shanto</span>{" "}
                 <span className=" text-[#500E5B]">Sarkar</span>
               </h1>
-              <p className="text-sm  text-white break-words md:text-[12px] lg:text-[18px] leading-5 lg:leading-8">
+              <p className="text-sm  text-white break-words md:text-[12px] lg:text-[18px] lg:leading-8">
                 Web developers design and build websites, coding with HTML, CSS,
                 and JavaScript to create functional and visually appealing
                 online platforms.
@@ -47,7 +47,7 @@ function Hero() {
                 className="bg-cover md:w-[40rem] lg:w-[60rem]"
               />
             </div> */}
-            <div className="imgstyle transform scale-x-[-1] md:-mt-16 lg:mt-0">
+            <div className="imgstyle transform scale-x-[-1] md:-mt-16 lg:mt-0 w-[82%] lg:w-[68%]">
               <Image
                 src={hero_img_me}
                 alt="Hero_image"

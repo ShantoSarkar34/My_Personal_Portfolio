@@ -139,26 +139,26 @@ export default function Header() {
   return (
     <Navbar
       id="header"
-      className="fixed top-0 backgroundcolor shadow-lg z-10 h-max max-w-full rounded-none py-1"
+      className="fixed top-0 backgroundcolor shadow-lg z-10 h-max max-w-full rounded-none py-1 px-0"
     >
-      <div className="flex items-center container mx-auto lg:px-[4rem]  justify-between text-blue-gray-900">
+      <div className="flex items-center container mx-auto px-4 lg:px-[4rem]  justify-between text-blue-gray-900">
         <Typography
           as="a"
           href="#"
-          className="mr-4 cursor-pointer font-medium  transition-all duration-200 flex items-center"
+          className="mr-4 cursor-pointer font-medium  transition-all duration-200 flex items-center gap-1"
         >
           <Image
             src={logo}
             height={80}
             width={60}
             alt="logo"
-            className="lg:w-16 rotate-6"
+            className="w-10 lg:w-16 rotate-6"
           />
           <div className="text-center">
-            <h3 className="font-bold text-[1.2rem] md:text-[1.5rem]">
+            <h3 className="font-bold text-[1rem] md:text-[1.5rem] mb-[2px]">
               Byte <span className="text-[#500E5B]">Busters</span>
             </h3>
-            <p className="mt-[-4px] text-start text-[0.6rem] lg:text-[0.8rem] lg:mt-[-5px]">
+            <p className="mt-[-4px] text-start text-[0.5rem] tracking-[3px] lg:text-[0.8rem] lg:mt-[-5px]">
               Community
             </p>
           </div>
@@ -187,7 +187,7 @@ export default function Header() {
           </Button>
           <IconButton
             variant="text"
-            className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+            className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden -mt-6"
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
           >
